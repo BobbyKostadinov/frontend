@@ -64,4 +64,4 @@ GET         /facebook-ia/remote.html                                        cont
 
 
 
-GET         /$path<advertiser-content/[^/]+/[^/]+$>                         commercial.controllers.HostedContentController.renderHostedPage(path)
+GET         /$itemId<advertiser-content/[^/]+/[^/]+$>                       commercial.controllers.HostedContentController2.renderHostedPage(itemId)
