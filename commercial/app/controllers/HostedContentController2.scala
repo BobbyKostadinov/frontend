@@ -33,7 +33,7 @@ class HostedContentController2(contentApiClient: ContentApiClient)
         println(item.id)
         println(item.section)
 
-        Ok(item.toString())
+        Ok(views.html.hosted.hostedBody(item))
       } getOrElse {
         NoCache(NotFound)
       }
